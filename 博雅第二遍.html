@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			font-family: "Microsoft YaHei","SimSun";
+			font-size: 14px;
+			height: 888px;
+		}
+		.cl{
+			clear: both;
+			
+		}
+		.header{
+			height: 58px;
+			background: #191D3A;
+		}
+		.inner_c{
+			width: 1000px;
+			margin: 0 auto;
+		}
+		.header .inner_c .logo{
+			height: 58px;
+			float: left;
+			padding-right: 42px;
+		}
+		.header .nav{
+			float: left;
+			width: 607px;
+			height: 58px;
+		}
+		.header .nav ul{
+			list-style: none;
+		}
+		.header .nav ul li{
+			float: left;
+			width: 100px;
+			height: 58px;
+			border-right: 1px solid #252947;
+		}
+		.header .nav ul li a{
+			display: inline-block;
+			width: 100px;
+			height: 58px;
+			text-decoration: none;
+			text-align: center;
+			line-height: 58px;
+			color: #56778A;
+		}
+		.header .nav ul li a:hover{
+			background: #252947;
+			color: #E2E4ED;
+		}
+		.header .jrwm{
+			float: right;
+			padding-top: 12px;
+			padding-right: 20px;
+		}
+		.header .jrwm a{
+			width: 98px;
+			height: 32px;
+			background: #38B774;
+			display: inline-block;
+			text-align: center;
+			line-height: 34px;
+			text-decoration: none;
+			color: #DFFFE9;
+			border:1px solid #3ACA7A;
+			border-radius: 5px;
+		}
+		.banner{
+			height: 465px;
+			background: url(images/banner.jpg) no-repeat top center;
+		}
+		.content{
+			padding-top: 50px;
+			background: url(images/indexmainbg.jpg) no-repeat center bottom;
+			height: 650px;
+		}
+		.content .product{
+			height: 229px;
+			float: left;
+		}
+		.content .product ul{
+			list-style:none;
+		}
+		.content .product ul li{
+			float: left;
+			margin-right:43px;
+		}
+		.content .product ul li.last{
+			margin:0;
+		}
+		
+		.content .product ul li a img{
+			width: 218px;
+			height: 130px;
+		}
+		.content .product ul li.last img{
+			width: 217px;
+		}
+		.content .product ul li h3{
+			line-height: 38px;
+			text-align: center;
+			color: #444866;
+		}
+		.content .product ul li p{
+			text-align: center;
+		}
+		.content .product ul li p a{
+			text-decoration: none;
+			font-size: 12px;
+			line-height: 12px;
+			color: #38B774;
+			padding-right: 8px;
+			background: url(images/sanjiaoxing.png) no-repeat center right;
+		}
+		.content .end{
+			padding-top: 53px;
+		}
+		
+		.content .end .boyaanews{
+			float: left;
+			width: 500px;
+			background: url(images/bynewsbg.jpg);
+			padding-top: 110px;
+			position: relative;
+		}
+		.content .end .boyaanews ul{
+			list-style:none;
+		}
+		.content .end .boyaanews ul li{
+			line-height: 50px;
+			border-bottom: 1px solid #DBE1E7;
+			color: #444866;
+		}
+		.content .end .boyaanews ul li span{
+			padding-left: 20px;
+			padding-right: 22px;
+			color: #AFBED8;
+		}
+		.content .end .boyaanews img{
+			position: absolute;
+			left: 218px;
+			top:40px;
+		}
+		.content .end .boyaajobs{
+			float: left;
+			width: 500px;
+			height: 314px;
+			background: url(images/byhrbg3.jpg);
+			position: relative;
+		}
+		.content .end .boyaajobs img{
+			position: absolute;
+			left: 218px;
+			top:40px;
+		}
+		.content .end .boyaajobs .zc{
+			font-size: 28px;
+			padding-top: 44px;
+			color: #FFFFFF;
+			font-weight: bold;
+			padding-left: 80px;
+		}
+		.content .end .boyaajobs .boyaa{
+			font-size: 12px;
+			color: #FFFFFF;
+			padding-left: 80px;
+		}
+		.content .end .boyaajobs .zhaopin{
+			padding-top: 27px;
+			padding-left: 20px;
+			color: #FFFFFF;
+			width: 305px;
+		}
+		.content .end .boyaajobs .zhaopin ul{
+			list-style: none;
+		}
+		.content .end .boyaajobs .zhaopin ul li{
+			line-height: 37px;
+			border-bottom: 1px solid #6FDEA3;
+		}
+		.foot{
+			background:#191D3A;
+			height: 91px;
+		}
+		.foot .map{
+			padding-top: 39px;
+			padding-left: 129px;
+			color:#6C6E7E;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="inner_c">
+			<h3 class="logo">
+				<img src="images/logo2.png" alt="">
+			</h3>
+			<div class="nav">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="#">博雅游戏</a></li>
+					<li><a href="#">博雅新闻</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">客服中心</a></li>
+					<li><a href="#">投资者中心</a></li>
+				</ul>
+			</div>
+			<div class="jrwm">
+				<a href="#">加入我们</a>
+			</div>
+		</div>
+	</div>
+	<div class="cl"></div>
+	<div class="banner"></div>
+	<div class="content">
+		<div class="inner_c">
+			<div class="product">
+				<ul>
+					<li>
+						<a href="#"><img src="images/pro1.jpg" alt=""></a>
+						<h3>宣传片</h3>
+						<p><a href="#">点击播放</a></p>
+					</li>
+					<li>
+						<a href="#"><img src="images/pro2.jpg" alt=""></a>
+						<h3>博雅互动宣传视频</h3>
+						<p><a href="#">点击播放</a></p>
+					</li>
+					<li>
+						<a href="#"><img src="images/pro3.jpg" alt=""></a>
+						<h3>斗地主</h3>
+						<p><a href="#">LANDLORDS</a></p>
+					</li>
+					<li class="last">
+						<a href="#"><img src="images/pro4.jpg" alt=""></a>
+						<h3>德州扑克</h3>
+						<p><a href="#">TEXAS HOLD'EM POKER</a></p>
+					</li>
+				</ul>
+			</div>
+			<div class="end">
+				<div class="boyaanews">
+					<a href="#"><img src="images/MORE.png" alt=""></a>
+					<ul>
+						<li>
+							<span>9/28</span>
+							2015博雅国际扑克大赛（BPT）在澳门落幕
+						</li>
+						<li>
+							<span>8/26</span>
+							2015 BPT博雅国际扑克大赛重磅来袭
+						</li>
+						<li>
+							<span>8/01</span>
+							博雅互动与阿里游戏联手启动“淘宝杯首届电视棋牌大赛”
+						</li>
+						<li>
+							<span>7/21</span>
+							湖南省省长杜家毫一行参观博雅互动
+						</li>
+					</ul>
+				</div>
+				<div class="boyaajobs">
+					<p class="zc">专场招聘</p>
+					<p class="boyaa">BOYYA JOBS</p>
+					<a href="#"><img src="images/MORE2.png" alt=""></a>
+					<div class="zhaopin">
+						<p>专场招聘岗位：</p>
+						<ul>
+							<li>PHP开发工程师</li>
+							<li>C++开发工程师</li>
+							<li>WEB前端开发工程师</li>
+							<li>大数据开发工程师</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="foot">
+		<p class="map"><a href="#">网站地图</a>|<a href="#">免责声明</a></p>
+	</div>
+</body>
+</html>
